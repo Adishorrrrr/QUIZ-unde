@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Examen Grilă</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="app">
+    <section class="quiz-card">
+
+      <header class="quiz-header">
+        <div>
+          <p class="eyebrow">Simulator examen</p>
+          <h1>Quiz Grilă</h1>
+        </div>
+
+        <div class="score-box">
+          <span id="score">0</span>
+          <small>corecte</small>
+        </div>
+      </header>
+
+      <div class="progress-info">
+        <span id="questionCounter">Întrebarea 1 / 3</span>
+        <span id="totalScore">Scor: 0 / 3</span>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+
+      <article id="quizArea" class="quiz-area">
+        <div class="question-top">
+          <span id="questionNumber" class="question-badge">1</span>
+          <h2 id="questionText">Se încarcă întrebarea...</h2>
+        </div>
+
+        <img id="questionImage" class="question-image" src="" alt="Imagine întrebare" />
+
+        <form id="answersForm" class="answers"></form>
+
+        <div id="feedback" class="feedback hidden"></div>
+
+        <div class="actions">
+          <button id="checkBtn" class="btn primary" type="button">Verifică răspunsul</button>
+          <button id="nextBtn" class="btn secondary hidden" type="button">Următoarea</button>
+        </div>
+      </article>
+
+      <section id="resultArea" class="result-area hidden">
+        <div class="result-icon">🏁</div>
+        <h2>Quiz finalizat!</h2>
+        <p id="finalScore"></p>
+        <button id="retryBtn" class="btn primary" type="button">Retry</button>
+      </section>
+
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
