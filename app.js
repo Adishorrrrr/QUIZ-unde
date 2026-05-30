@@ -1,7 +1,7 @@
 const questions = [
   {
     id: 1,
-    image: "poze/1.jpg",
+    image: "1.jpg",
     question: "Prin litera λ (lambda) notăm:",
     answers: [
       {
@@ -22,7 +22,7 @@ const questions = [
   },
   {
     id: 2,
-    image: "poze/2.jpg",
+    image: "2.jpg",
     question: "O undă electromagnetică se propagă pe direcția axei OX în mediul dielectric (1) și ajunge la un punct de incidență cu mediul dielectric (2). Dacă Z1 > Z2, atunci:",
     answers: [
       {
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     id: 3,
-    image: "poze/3.jpg",
+    image: "3.jpg",
     question: "Mărimea vectorială complex S din relația alăturată se referă la:",
     answers: [
       {
@@ -64,7 +64,7 @@ const questions = [
   },
   {
     id: 4,
-    image: "poze/4.jpg",
+    image: "4.jpg",
     question: "Relația alăturată reprezintă:",
     answers: [
       {
@@ -106,7 +106,7 @@ const questions = [
   },
   {
     id: 6,
-    image: "poze/6.jpg",
+    image: "6.jpg",
     question: "Raportul lungimilor de undă în dielectric și conductor, ca de altfel și raportul vitezelor unei unde în cele două medii, este dependent de frecvență prin:",
     answers: [
       {
@@ -127,7 +127,7 @@ const questions = [
   },
   {
     id: 7,
-    image: "poze/7.jpg",
+    image: "7.jpg",
     question: "Mărimea complexă γ (gamma) reprezintă:",
     answers: [
       {
@@ -148,7 +148,7 @@ const questions = [
   },
   {
     id: 8,
-    image: "poze/8.jpg",
+    image: "8.jpg",
     question: "Mărimea δ (delta) din relația alăturată se referă la:",
     answers: [
       {
@@ -169,7 +169,7 @@ const questions = [
   },
   {
     id: 9,
-    image: "poze/9.jpg",
+    image: "9.jpg",
     question: "Setul de ecuații al lui Maxwell din figură constituie punctul de start pentru:",
     answers: [
       {
@@ -190,7 +190,7 @@ const questions = [
   },
 {
   id: 10,
-  image: "poze/10.jpg",
+  image: "10.jpg",
   question: "În relația alăturată, se definește Z10 ca fiind:",
   answers: [
     {
@@ -211,7 +211,7 @@ const questions = [
 },
 {
   id: 11,
-  image: "poze/11.jpg",
+  image: "11.jpg",
   question: "Relația din figură se referă la:",
   answers: [
     {
@@ -274,7 +274,7 @@ const questions = [
 },
 {
   id: 14,
-  image: "poze/14.jpg",
+  image: "14.jpg",
   question: "Vectorul din figură reprezintă:",
   answers: [
     {
@@ -316,7 +316,7 @@ const questions = [
 },
 {
   id: 16,
-  image: "poze/16.jpg",
+  image: "16.jpg",
   question: "În reprezentarea alăturată, mărimile de câmp magnetic sunt cele reprezentate cu culoarea:",
   answers: [
     {
@@ -337,7 +337,7 @@ const questions = [
 },
 {
   id: 17,
-  image: "poze/17.jpg",
+  image: "17.jpg",
   question: "Urmărind imaginile alăturate care reprezintă distribuția de curent la o anumită frecvență într-un conductor, în opinia dvs., în care dintre conductoare curentul are o frecvență mai mare?",
   answers: [
     {
@@ -421,7 +421,7 @@ const questions = [
 },
 {
   id: 21,
-  image: "poze/21.jpg",
+  image: "21.jpg",
   question: "Care din cele două seturi de soluții (E, H) presupun rezolvarea în prima instanță a ecuației diferențiale de ordinul 2 în raport cu H:",
   answers: [
     {
@@ -442,7 +442,7 @@ const questions = [
 },
 {
   id: 22,
-  image: "poze/22.jpg",
+  image: "22.jpg",
   question: "Este cunoscut ca modelul în care un voltmetru este montat într-un circuit în care există inducție electromagnetică influențează decisiv afișajul acestuia. Pentru montajul alăturat, indicația voltmetrului este:",
   answers: [
     {
@@ -463,7 +463,7 @@ const questions = [
 },
 {
   id: 23,
-  image: "poze/23.jpg",
+  image: "23.jpg",
   question: "Expresia impedanței de undă din relația alăturată se referă la:",
   answers: [
     {
@@ -484,7 +484,7 @@ const questions = [
 },
 {
   id: 24,
-  image: "poze/24.jpg",
+  image: "24.jpg",
   question: "În cazul liniilor de transmisie, mărimea Zc din formula alăturată definește:",
   answers: [
     {
@@ -526,7 +526,7 @@ const questions = [
 },
 {
   id: 26,
-  image: "poze/26.jpg",
+  image: "26.jpg",
   question: "Relația alăturată reprezintă:",
   answers: [
     {
@@ -547,7 +547,7 @@ const questions = [
 },
 {
   id: 27,
-  image: "poze/27.jpg",
+  image: "27.jpg",
   question: "În imaginea alăturată este vorba despre:",
   answers: [
     {
@@ -568,7 +568,7 @@ const questions = [
 },
 {
   id: 28,
-  image: "poze/28.jpg",
+  image: "28.jpg",
   question: "Operatorul matematic din figură se numește:",
   answers: [
     {
@@ -589,7 +589,7 @@ const questions = [
 },
 {
   id: 29,
-  image: "poze/29.jpg",
+  image: "29.jpg",
   question: "O undă de tensiune care se propagă pe o linie ajunge la finalul acesteia (bornele 2-2'). Dacă reflexia undei directe U conduce la o undă rezultantă spre sursă de valoare 2U, înseamnă că:",
   answers: [
     {
@@ -605,12 +605,12 @@ const questions = [
       text: "impedanța de sarcină este infinită (linia este la mers în gol)"
     }
   ],
-  correctAnswers: ["a"],
-  explanation: "Răspunsul corect este A. Conform variantei marcate în imagine, reflexia conduce la cazul în care impedanța de sarcină este zero, adică linia este în scurtcircuit."
+  correctAnswers: ["c"],
+  explanation: "Este corect C, pentru că atunci când tensiunea rezultantă la capătul liniei devine 2U, înseamnă că unda reflectată se adună cu unda directă. Acest fenomen apare la mers în gol, unde impedanța de sarcină este infinită."
 },
 {
   id: 30,
-  image: "poze/30.jpg",
+  image: "30.jpg",
   question: "Vectorul din figură reprezintă:",
   answers: [
     {
@@ -631,7 +631,7 @@ const questions = [
 },
 {
   id: 31,
-  image: "poze/31.jpg",
+  image: "31.jpg",
   question: "Setul de ecuații ale lui Maxwell din figură constituie punctul de start pentru:",
   answers: [
     {
@@ -652,7 +652,7 @@ const questions = [
 },
 {
   id: 32,
-  image: "poze/32.jpg",
+  image: "32.jpg",
   question: "Mărimea vectorială complexă S din relația alăturată se referă la:",
   answers: [
     {
@@ -715,7 +715,7 @@ const questions = [
 },
 {
   id: 35,
-  image: "poze/35.jpg",
+  image: "35.jpg",
   question: "Care din cele două seturi de soluții (E, H) presupun rezolvarea în prima instanță a ecuației diferențiale de ordinul 2 în raport cu H:",
   answers: [
     {
@@ -736,7 +736,7 @@ const questions = [
 },
 {
   id: 36,
-  image: "poze/36.jpg",
+  image: "36.jpg",
   question: "Operatorul matematic din figură se numește:",
   answers: [
     {
@@ -757,7 +757,7 @@ const questions = [
 },
 {
   id: 37,
-  image: "poze/37.jpg",
+  image: "37.jpg",
   question: "Relația alăturată reprezintă:",
   answers: [
     {
@@ -778,7 +778,7 @@ const questions = [
 },
 {
   id: 38,
-  image: "poze/38.jpg",
+  image: "38.jpg",
   question: "Expresia impedanței de undă din relația alăturată se referă la:",
   answers: [
     {
@@ -799,7 +799,7 @@ const questions = [
 },
 {
   id: 39,
-  image: "poze/39.jpg",
+  image: "39.jpg",
   question: "Prin litera λ (lambda) notăm:",
   answers: [
     {
@@ -820,7 +820,7 @@ const questions = [
 },
 {
   id: 40,
-  image: "poze/40.jpg",
+  image: "40.jpg",
   question: "O undă electromagnetică se propagă pe direcția axei OX în mediul dielectric (1) și ajunge la un punct de incidență cu mediul dielectric (2). Dacă Z1 > Z2, atunci:",
   answers: [
     {
@@ -841,7 +841,7 @@ const questions = [
 },
 {
   id: 41,
-  image: "poze/41.jpg",
+  image: "41.jpg",
   question: "Este cunoscut ca modul în care un voltmetru este montat într-un circuit în care există inducție electromagnetică influențează decisiv afișajul acestuia. Pentru montajul alăturat, indicația voltmetrului este:",
   answers: [
     {
@@ -857,12 +857,12 @@ const questions = [
       text: "zero"
     }
   ],
-  correctAnswers: ["c"],
-  explanation: "Răspunsul corect este C. Pentru montajul indicat în figură, indicația voltmetrului este zero."
+  correctAnswers: ["a"],
+  explanation: "Răspunsul corect este A. Pentru montajul indicat în figură, indicația voltmetrului este mai mare ca zero."
 },
 {
   id: 42,
-  image: "poze/42.jpg",
+  image: "42.jpg",
   question: "În relația alăturată, se definește Z10 ca fiind:",
   answers: [
     {
@@ -883,7 +883,7 @@ const questions = [
 },
 {
   id: 43,
-  image: "poze/43.jpg",
+  image: "43.jpg",
   question: "Relația alăturată reprezintă:",
   answers: [
     {
@@ -925,7 +925,7 @@ const questions = [
 },
 {
   id: 45,
-  image: "poze/45.jpg",
+  image: "45.jpg",
   question: "Mărimea complexă γ (gamma) reprezintă:",
   answers: [
     {
@@ -946,7 +946,7 @@ const questions = [
 },
 {
   id: 46,
-  image: "poze/46.jpg",
+  image: "46.jpg",
   question: "În reprezentarea alăturată, mărimile de câmp magnetic sunt cele reprezentate cu culoarea:",
   answers: [
     {
@@ -967,7 +967,7 @@ const questions = [
 },
 {
   id: 47,
-  image: "poze/47.jpg",
+  image: "47.jpg",
   question: "Mărimea δ (delta) din relația alăturată se referă la:",
   answers: [
     {
@@ -988,7 +988,7 @@ const questions = [
 },
 {
   id: 48,
-  image: "poze/48.jpg",
+  image: "48.jpg",
   question: "În cazul liniilor de transmisie, mărimea Zc din formula alăturată definește:",
   answers: [
     {
@@ -1009,7 +1009,7 @@ const questions = [
 },
 {
   id: 49,
-  image: "poze/49.jpg",
+  image: "49.jpg",
   question: "Relația din figură se referă la:",
   answers: [
     {
@@ -1030,7 +1030,7 @@ const questions = [
 },
 {
   id: 50,
-  image: "poze/50.jpg",
+  image: "50.jpg",
   question: "În imaginea alăturată este vorba despre:",
   answers: [
     {
@@ -1114,7 +1114,7 @@ const questions = [
 },
 {
   id: 54,
-  image: "poze/54.jpg",
+  image: "54.jpg",
   question: "În relația alăturată, mărimile Ec și ES reprezintă:",
   answers: [
     {
@@ -1135,7 +1135,7 @@ const questions = [
 },
 {
   id: 55,
-  image: "poze/55.jpg",
+  image: "55.jpg",
   question: "Urmărind imaginile alăturate care reprezintă distribuția de curent la o anumită frecvență într-un conductor, în opinia dvs., în care dintre conductoare curentul are o frecvență mai mare?",
   answers: [
     {
@@ -1156,7 +1156,7 @@ const questions = [
 },
 {
   id: 56,
-  image: "poze/56.jpg",
+  image: "56.jpg",
   question: "Raportul lungimilor de undă în dielectric și conductor, ca de altfel și raportul vitezelor unei unde în cele două medii, este dependent de frecvență prin:",
   answers: [
     {
@@ -1177,7 +1177,7 @@ const questions = [
 },
 {
   id: 57,
-  image: "poze/57.jpg",
+  image: "57.jpg",
   question: "Pentru imaginea alăturată, dacă semnalul de intrare pe linia de transmisie este cel albastru, funcție de timp, iar semnalul cu roșu este cel de ieșire de pe linie, putem spune că:",
   answers: [
     {
@@ -1214,8 +1214,8 @@ const questions = [
       text: "crește odată cu creșterea frecvenței"
     }
   ],
-  correctAnswers: ["b"],
-  explanation: "Răspunsul corect este B, conform variantei marcate în imagine: rezistența în curent alternativ nu se modifică odată cu frecvența."
+  correctAnswers: ["c"],
+  explanation: "Răspunsul corect este C, rezistenta scade/creste odata cu frecventa (direct proportional)."
 }
 
 
